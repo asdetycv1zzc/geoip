@@ -176,6 +176,96 @@
     {
       "type": "private",
       "action": "add"
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "tencent",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/132203",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "tencent",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/132591",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "tencent",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/134103",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "tencent",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/133478",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "tencent",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/139341",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "tencent",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/45090",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "tencent",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/58835",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "aliyun",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/45102",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "aliyun",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/60924",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "aliyun",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/24429",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
     }
   ],
   "output": [
@@ -211,6 +301,8 @@
           "netflix",
           "telegram",
           "twitter",
+          "tencent",
+          "aliyun",
           "tor"
         ]
       }
@@ -249,7 +341,9 @@
           "telegram",
           "twitter",
           "tor",
-          "private"
+          "private",
+          "tencent",
+          "aliyun"
         ]
       }
     },
@@ -270,7 +364,9 @@
           "netflix",
           "telegram",
           "twitter",
-          "tor"
+          "tor",
+          "tencent",
+          "aliyun"
         ]
       }
     },
@@ -299,7 +395,9 @@
           "netflix",
           "telegram",
           "twitter",
-          "tor"
+          "tor",
+          "tencent",
+          "aliyun"
         ]
       }
     },
