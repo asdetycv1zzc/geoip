@@ -22,6 +22,8 @@ This project releases various formats of GeoIP files automatically every Thursda
   - `geoip:telegram`（`GEOIP,TELEGRAM`）
   - `geoip:twitter`（`GEOIP,TWITTER`）
   - `geoip:tor`（`GEOIP,TOR`）
+  - `geoip:aliyun`（`GEOIP,ALIYUN`）
+  - `geoip:tencent`（`GEOIP,TENCENT`）
 
 ## 下载地址与使用方法
 
