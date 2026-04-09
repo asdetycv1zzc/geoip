@@ -266,6 +266,15 @@
         "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/24429",
         "jsonPath": ["prefixes.#.Prefix"]
       }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "steam",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/32590",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
     }
   ],
   "output": [
@@ -303,6 +312,7 @@
           "twitter",
           "tencent",
           "aliyun",
+          "steam",
           "tor"
         ]
       }
@@ -343,7 +353,8 @@
           "tor",
           "private",
           "tencent",
-          "aliyun"
+          "aliyun",
+          "steam"
         ]
       }
     },
@@ -366,7 +377,8 @@
           "twitter",
           "tor",
           "tencent",
-          "aliyun"
+          "aliyun",
+          "steam"
         ]
       }
     },
@@ -397,7 +409,8 @@
           "twitter",
           "tor",
           "tencent",
-          "aliyun"
+          "aliyun",
+          "steam"
         ]
       }
     },
