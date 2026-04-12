@@ -275,6 +275,132 @@
         "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/32590",
         "jsonPath": ["prefixes.#.Prefix"]
       }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/63729",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/63728",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/63288",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/55967",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/45085",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/45076",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/38627",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/38365",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/199506",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/133746",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/131141",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/131140",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/131139",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "baidu",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/131138",
+        "jsonPath": ["prefixes.#.Prefix"]
+      }
     }
   ],
   "output": [
@@ -313,6 +439,7 @@
           "tencent",
           "aliyun",
           "steam",
+          "baidu",
           "tor"
         ]
       }
@@ -354,7 +481,8 @@
           "private",
           "tencent",
           "aliyun",
-          "steam"
+          "steam",
+          "baidu"
         ]
       }
     },
@@ -378,7 +506,8 @@
           "tor",
           "tencent",
           "aliyun",
-          "steam"
+          "steam",
+          "baidu"
         ]
       }
     },
@@ -410,7 +539,8 @@
           "tor",
           "tencent",
           "aliyun",
-          "steam"
+          "steam",
+          "baidu"
         ]
       }
     },
