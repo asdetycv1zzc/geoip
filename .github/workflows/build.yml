@@ -1,3 +1,4 @@
+# Build and publish GeoIP assets.
 name: Build geoip files
 on:
   workflow_dispatch:
