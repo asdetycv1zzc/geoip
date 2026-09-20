@@ -479,6 +479,17 @@
       "type": "json",
       "action": "add",
       "args": {
+        "name": "netease",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/45062",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
         "name": "steam",
         "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/32590",
         "jsonPath": [
@@ -682,6 +693,7 @@
           "huawei",
           "volcano",
           "sinnet",
+          "netease",
           "steam",
           "baidu",
           "cnunicom",
@@ -737,6 +749,7 @@
           "huawei",
           "volcano",
           "sinnet",
+          "netease",
           "steam",
           "baidu",
           "cnunicom",
@@ -774,6 +787,7 @@
           "huawei",
           "volcano",
           "sinnet",
+          "netease",
           "steam",
           "baidu",
           "cnunicom",
@@ -819,6 +833,7 @@
           "huawei",
           "volcano",
           "sinnet",
+          "netease",
           "steam",
           "baidu",
           "cnunicom",
