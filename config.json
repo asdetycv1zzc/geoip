@@ -446,6 +446,17 @@
       "type": "json",
       "action": "add",
       "args": {
+        "name": "huawei",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/55990",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
         "name": "steam",
         "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/32590",
         "jsonPath": [
@@ -646,6 +657,7 @@
           "twitter",
           "tencent",
           "aliyun",
+          "huawei",
           "steam",
           "baidu",
           "cnunicom",
@@ -698,6 +710,7 @@
           "private",
           "tencent",
           "aliyun",
+          "huawei",
           "steam",
           "baidu",
           "cnunicom",
@@ -732,6 +745,7 @@
           "tor",
           "tencent",
           "aliyun",
+          "huawei",
           "steam",
           "baidu",
           "cnunicom",
@@ -774,6 +788,7 @@
           "tor",
           "tencent",
           "aliyun",
+          "huawei",
           "steam",
           "baidu",
           "cnunicom",
