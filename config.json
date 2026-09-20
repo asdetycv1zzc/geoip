@@ -292,6 +292,39 @@
       "type": "json",
       "action": "add",
       "args": {
+        "name": "cnnic",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/24409",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cnnic",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/24406",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cnnic",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/24151",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
         "name": "tencent",
         "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/132203",
         "jsonPath": [
@@ -609,6 +642,7 @@
           "cnmobile",
           "cernet",
           "cstnet",
+          "cnnic",
           "tor"
         ]
       }
@@ -659,7 +693,8 @@
           "cntelecom",
           "cnmobile",
           "cernet",
-          "cstnet"
+          "cstnet",
+          "cnnic"
         ]
       }
     },
@@ -692,7 +727,8 @@
           "cntelecom",
           "cnmobile",
           "cernet",
-          "cstnet"
+          "cstnet",
+          "cnnic"
         ]
       }
     },
@@ -733,7 +769,8 @@
           "cntelecom",
           "cnmobile",
           "cernet",
-          "cstnet"
+          "cstnet",
+          "cnnic"
         ]
       }
     },
