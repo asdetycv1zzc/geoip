@@ -490,6 +490,72 @@
       "type": "json",
       "action": "add",
       "args": {
+        "name": "guxiang",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/24424",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "bluenet",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/58593",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "kingsoftcloud",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/59019",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cnwalmart",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/59049",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "westcloud",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/135629",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "lenovo",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/63548",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
         "name": "steam",
         "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/32590",
         "jsonPath": [
@@ -694,6 +760,12 @@
           "volcano",
           "sinnet",
           "netease",
+          "guxiang",
+          "bluenet",
+          "kingsoftcloud",
+          "cnwalmart",
+          "westcloud",
+          "lenovo",
           "steam",
           "baidu",
           "cnunicom",
@@ -750,6 +822,12 @@
           "volcano",
           "sinnet",
           "netease",
+          "guxiang",
+          "bluenet",
+          "kingsoftcloud",
+          "cnwalmart",
+          "westcloud",
+          "lenovo",
           "steam",
           "baidu",
           "cnunicom",
@@ -788,6 +866,12 @@
           "volcano",
           "sinnet",
           "netease",
+          "guxiang",
+          "bluenet",
+          "kingsoftcloud",
+          "cnwalmart",
+          "westcloud",
+          "lenovo",
           "steam",
           "baidu",
           "cnunicom",
@@ -834,6 +918,12 @@
           "volcano",
           "sinnet",
           "netease",
+          "guxiang",
+          "bluenet",
+          "kingsoftcloud",
+          "cnwalmart",
+          "westcloud",
+          "lenovo",
           "steam",
           "baidu",
           "cnunicom",
