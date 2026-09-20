@@ -270,6 +270,28 @@
       "type": "json",
       "action": "add",
       "args": {
+        "name": "cernet",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/4538",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cstnet",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/7497",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
         "name": "tencent",
         "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/132203",
         "jsonPath": [
@@ -582,6 +604,11 @@
           "aliyun",
           "steam",
           "baidu",
+          "cnunicom",
+          "cntelecom",
+          "cnmobile",
+          "cernet",
+          "cstnet",
           "tor"
         ]
       }
@@ -627,7 +654,12 @@
           "tencent",
           "aliyun",
           "steam",
-          "baidu"
+          "baidu",
+          "cnunicom",
+          "cntelecom",
+          "cnmobile",
+          "cernet",
+          "cstnet"
         ]
       }
     },
@@ -655,7 +687,12 @@
           "tencent",
           "aliyun",
           "steam",
-          "baidu"
+          "baidu",
+          "cnunicom",
+          "cntelecom",
+          "cnmobile",
+          "cernet",
+          "cstnet"
         ]
       }
     },
@@ -691,7 +728,12 @@
           "tencent",
           "aliyun",
           "steam",
-          "baidu"
+          "baidu",
+          "cnunicom",
+          "cntelecom",
+          "cnmobile",
+          "cernet",
+          "cstnet"
         ]
       }
     },
