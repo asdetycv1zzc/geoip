@@ -457,6 +457,17 @@
       "type": "json",
       "action": "add",
       "args": {
+        "name": "volcano",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/137718",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
         "name": "steam",
         "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/32590",
         "jsonPath": [
@@ -658,6 +669,7 @@
           "tencent",
           "aliyun",
           "huawei",
+          "volcano",
           "steam",
           "baidu",
           "cnunicom",
@@ -711,6 +723,7 @@
           "tencent",
           "aliyun",
           "huawei",
+          "volcano",
           "steam",
           "baidu",
           "cnunicom",
@@ -746,6 +759,7 @@
           "tencent",
           "aliyun",
           "huawei",
+          "volcano",
           "steam",
           "baidu",
           "cnunicom",
@@ -789,6 +803,7 @@
           "tencent",
           "aliyun",
           "huawei",
+          "volcano",
           "steam",
           "baidu",
           "cnunicom",
