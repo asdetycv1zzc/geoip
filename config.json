@@ -468,6 +468,17 @@
       "type": "json",
       "action": "add",
       "args": {
+        "name": "sinnet",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/55960",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
         "name": "steam",
         "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/32590",
         "jsonPath": [
@@ -670,6 +681,7 @@
           "aliyun",
           "huawei",
           "volcano",
+          "sinnet",
           "steam",
           "baidu",
           "cnunicom",
@@ -724,6 +736,7 @@
           "aliyun",
           "huawei",
           "volcano",
+          "sinnet",
           "steam",
           "baidu",
           "cnunicom",
@@ -760,6 +773,7 @@
           "aliyun",
           "huawei",
           "volcano",
+          "sinnet",
           "steam",
           "baidu",
           "cnunicom",
@@ -804,6 +818,7 @@
           "aliyun",
           "huawei",
           "volcano",
+          "sinnet",
           "steam",
           "baidu",
           "cnunicom",
