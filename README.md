@@ -1,9 +1,5 @@
 <h1 align="center">GeoIP 增强版：自由定制多种格式 GeoIP 文件</h1>
 
-<p align="center">
-  <img src="./assets/hero.png" alt="GeoIP project hero image">
-</p>
-
 <div align="center">
 <a href="https://www.jsdelivr.com/package/gh/asdetycv1zzc/geoip" target="_blank"><img src="https://data.jsdelivr.com/v1/package/gh/asdetycv1zzc/geoip/badge?style=rounded" alt="jsdelivr stats badge"></a>
 
