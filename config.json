@@ -267,7 +267,7 @@
       }
     },
     {
-      "type": "json",
+      "type": "text",
       "action": "add",
       "args": {
         "name": "cernet",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "type": "json",
+      "type": "text",
       "action": "add",
       "args": {
         "name": "cernet",
@@ -285,7 +285,7 @@
       }
     },
     {
-      "type": "json",
+      "type": "text",
       "action": "add",
       "args": {
         "name": "cstnet",
@@ -294,7 +294,7 @@
       }
     },
     {
-      "type": "json",
+      "type": "text",
       "action": "add",
       "args": {
         "name": "cstnet",
@@ -303,7 +303,7 @@
       }
     },
     {
-      "type": "json",
+      "type": "text",
       "action": "add",
       "args": {
         "name": "cloudflare-cn",
@@ -312,7 +312,7 @@
       }
     },
     {
-      "type": "json",
+      "type": "text",
       "action": "add",
       "args": {
         "name": "cloudflare-cn",
