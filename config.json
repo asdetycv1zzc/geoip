@@ -271,10 +271,17 @@
       "action": "add",
       "args": {
         "name": "cernet",
-        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/4538",
-        "jsonPath": [
-          "prefixes.#.Prefix"
-        ]
+        "uri": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/cernet.txt",
+        "onlyIPType": "ipv4"
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cernet",
+        "uri": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/cernet6.txt",
+        "onlyIPType": "ipv6"
       }
     },
     {
@@ -282,10 +289,35 @@
       "action": "add",
       "args": {
         "name": "cstnet",
-        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/7497",
-        "jsonPath": [
-          "prefixes.#.Prefix"
-        ]
+        "uri": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/cstnet.txt",
+        "onlyIPType": "ipv4"
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cstnet",
+        "uri": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/cstnet6.txt",
+        "onlyIPType": "ipv6"
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cloudflare-cn",
+        "uri": "https://www.cloudflare-cn.com/ips-v4",
+        "onlyIPType": "ipv4"
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cloudflare-cn",
+        "uri": "https://www.cloudflare-cn.com/ips-v6",
+        "onlyIPType": "ipv6"
       }
     },
     {
@@ -294,6 +326,50 @@
       "args": {
         "name": "cnnic",
         "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/24409",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cu9929",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/9929",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cu10099",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/10099",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cm58807",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/58807",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cm58453",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/58453",
         "jsonPath": [
           "prefixes.#.Prefix"
         ]
