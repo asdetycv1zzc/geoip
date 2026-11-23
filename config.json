@@ -366,6 +366,50 @@
       "type": "json",
       "action": "add",
       "args": {
+        "name": "ct4809",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/4809",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "ctglobal",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/23764",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "ctglobal",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/36678",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "ctyun",
+        "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/58519",
+        "jsonPath": [
+          "prefixes.#.Prefix"
+        ]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
         "name": "cnnic",
         "uri": "https://bgp.he.net/super-lg/report/api/v1/prefixes/originated/24406",
         "jsonPath": [
